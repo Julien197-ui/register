@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="resetCss.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="tableau">
+        <form action="" id="form" onsubmit="validation()" class="tableau2">
+            <h1>Enregistrer votre compte</h1>
+            <div class="form-field">
+                <label for="name">Nom :</label>
+                <input type="text" name="name" id="name" placeholder="entrer votre nom" minlength="3" class="pt25 mt50"  required autocomplete="off">
+                <span id="missName"></span>
+            </div>
+            <div class="form-field">
+                <label for="surName">Prénom :</label>
+                <input type="text" name="surName" id="surName"placeholder="entrer votre prénom" minlength="3"  required class="pt25 mt50"  autocomplete="off">
+                <span></span>
+            </div>
+            <div class="form-field">
+                <label for="email">Adresse mail :</label>
+                <input type="email" name="email" id="email" placeholder="entrer votre adresse-mail" value="" class="pt25 mt50" autocomplete="off">
+                <span></span>
+            </div>
+            <div class="form-field">
+                <label for="password">Mot de passe ( au moins une majuscule,minuscule,caractère spéciale et chiffre) :</label>
+                <input type="password" name="password" id="password" placeholder="entrer votre mot de passe" value="" class="pt25 mt50">
+                <span></span>
+            </div>
+            <div class="form-field">
+                <label for="confirm-password">Confirmer votre mot de passe :</label>
+                <input type="password" name="confirm-password" id="confirm-password" placeholder="confirmer votre mot de passe" value="" class="pt25 mt50" autocomplete="false">
+                <span></span>
+            </div>
+            <div class="form-field">
+                <input type="submit" id="boutonEnvoi" value="Valider votre inscription" class="bouton">
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

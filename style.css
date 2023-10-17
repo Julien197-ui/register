@@ -1,0 +1,64 @@
+body{
+    background-color: #004c91;
+}
+h1{
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+.tableau{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: white;
+    border: solid;
+    border-color: #004c91;
+    border-radius: 10px;
+    margin:100px;
+}
+.tableau2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: white;
+}
+.pt25{
+    padding-top: 25px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    color: #949494;
+    font-size: 24px;
+    text-align: left;
+}
+.mt50{
+    margin-top: 50px;
+}
+.bouton{
+    margin-top: 50px;
+    padding: 25px;
+    background-color: #2d9216;
+    border-radius: 5px;
+    border: thin;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+label{
+    font-size: 24px;
+    padding-top: 50px;
+}
+.error{
+    border: red;
+}
+.success{
+    border:green;
+}
+.form-field{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
